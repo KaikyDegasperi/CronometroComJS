@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cronometro</title>
     <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <form action="" name="form_main">
-        <div>
-            <span id="hour">00:</span>
-            <span id="minute">00:</span>
-            <span id="second">00:</span>
-            <span id="millisecond">00</span>
+        <div class="container">
+            <span class="box" id="hour">00:</span>
+            <span class="box" id="minute">00:</span>
+            <span class="box" id="second">00:</span>
+            <span class="box" id="millisecond">00</span>
         </div>
         <br>
-        <button type="button" class="start">Começar</button>
-        <button type="button" class="pause">Pausar</button>
-        <button type="button" class="reset">Zerar</button>
-    
+        <div>
+            <button type="button" class="start">Começar</button>
+            <button type="button" class="pause">Pausar</button>
+            <button type="button" class="reset">Zerar</button>
+        </div>
     </form>
 </body>
 </html>
